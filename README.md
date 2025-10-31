@@ -2,4 +2,6 @@
 
 ## 对自己的查缺补漏
 
+## 还有一些js常见编程场景、工具方法在 **[JavaScript-Tool](https://github.com/fenglingxiang/js-program-question)**
+
 **更新中...**

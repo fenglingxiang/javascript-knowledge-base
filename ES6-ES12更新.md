@@ -57,7 +57,7 @@ const age = 18;
 const str = `我叫${name},今年${age}岁了`;
 ```
 
-- 结构赋值
+- 解构赋值
 
 ```js
 const obj = {
