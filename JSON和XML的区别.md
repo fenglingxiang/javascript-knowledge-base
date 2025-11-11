@@ -16,3 +16,29 @@
 | **典型应用场景** | 配置文件、文档存储、Web Service、企业级应用                  | Web APIs、NoSQL数据库、配置文件、前后端数据交换              |
 | **扩展性**       | 较好，可自定义标签和结构                                     | 好，但结构相对固定                                           |
 
+### 示例
+
+表示一个人的信息，名字是张三，年龄是 18 岁，性别是男，爱好是篮球和足球
+
+- XML
+```xml
+<person>
+  <name>张三</name>
+  <age>18</age>
+  <sex>男</sex>
+  <hobbies>
+    <hobby>篮球</hobby>
+    <hobby>足球</hobby>
+  </hobbies>
+</person>
+```
+
+- JSON
+```json
+{
+  "name": "张三",
+  "age": 18,
+  "sex": "男",
+  "hobbies": ["篮球", "足球"]
+}
+```
