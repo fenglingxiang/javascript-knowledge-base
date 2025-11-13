@@ -112,10 +112,9 @@ console.log(_NewFn); //Fn { name: 'Charlie' }
 
 ### 拦截数组能力对比
 
-**Object.defineProperty 对数组的限制**
+**Object.defineProperty 对数组拦截的限制**
 
 ```js
-const arr = [1, 2, 3];
 const arr = [1, 2, 3];
 
 Object.defineProperty(arr, "0", {
