@@ -168,6 +168,12 @@ _arr.unshift(100); //target key: unshift
 _arr.length; //get key
 ```
 
+### Reflect 对象
+
+- js 的内置对象，提供拦截操作的方法，与 Proxy 对象的方法一一对应， 用于简化 Proxy 的实现和保持默认行为
+- 函数化统一对象操作
+- 修改一些默认返回值，让其更加合理, 比如，Object.defineProperty(obj, name, desc)在无法定义属性时，会抛出一个错误，而 Reflect.defineProperty(obj, name, desc)则会返回 false
+
 ### vue 响应式的简单实现
 
 - vue2.x 通过 Object.defineProperty 结合发布订阅者模式实现响应式
