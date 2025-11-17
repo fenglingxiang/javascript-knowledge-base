@@ -2,6 +2,8 @@
 
 Service Work 是运行在浏览器后台的脚本, 它充当网络代理可以拦截和处理网络请求, 支持离线缓存, 消息推送, 后台同步等功能
 
+**index.html**
+
 ```html
 <script>
   if ("serviceWorker" in navigator) {
@@ -33,6 +35,8 @@ Service Work 是运行在浏览器后台的脚本, 它充当网络代理可以�
 </script>
 >
 ```
+
+**sw.js**
 
 ```js
 // 静态缓存名称、版本
